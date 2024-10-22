@@ -41,6 +41,6 @@ while valueA != 3:
 
     if valueA == 1:
         final = input('Please enter your password to encode:')
-        encode(final)
+        final = encode(final)
     if valueA == 2:
         print(f'The encoded password is {final}, and the original password is {decode.decode(final)}.')
