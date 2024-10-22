@@ -11,5 +11,3 @@ def decode(string):
         decoded_string += new_char # add to new decoded string
 
     return decoded_string
-
-print(decode(input("Enter a string: ")))
