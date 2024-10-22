@@ -37,10 +37,10 @@ while valueA != 3:
     print('1. Encode')
     print('2. Decode')
     print('3. Exit')
-    valueA = str(input('Please enter an option:'))
+    valueA = int(input('Please enter an option:'))
 
-    if valueA == '1':
+    if valueA == 1:
         final = input('Please enter your password to encode:')
         encode(final)
-    if valueA == '2':
+    if valueA == 2:
         print(f'The encoded password is {final}, and the original password is {decode(final)}.')
