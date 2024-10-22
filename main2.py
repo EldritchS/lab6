@@ -1,4 +1,4 @@
-
+import decode.py
 #Matthew Inkelaar
 
 def encode(string):
@@ -43,4 +43,4 @@ while valueA != 3:
         final = input('Please enter your password to encode:')
         encode(final)
     if valueA == 2:
-        print(f'The encoded password is {final}, and the original password is {decode(final)}.')
+        print(f'The encoded password is {final}, and the original password is {decode.decode(final)}.')
