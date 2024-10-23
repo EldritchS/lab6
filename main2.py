@@ -1,4 +1,4 @@
-import decode.py
+import decode
 #Matthew Inkelaar
 
 def encode(string):
